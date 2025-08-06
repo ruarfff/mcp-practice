@@ -12,8 +12,18 @@ Install uv.
 uv sync
 ```
 
-## Run
+## Setup API Key
+
+Need an anthropic account. Create a key at <https://console.anthropic.com/settings/keys>
+
+Update ./.env with your API key:
+
+```
+ANTHROPIC_API_KEY=your_api_key_here
+```
+
+## Run Sever
 
 ```bash
-npx @modelcontextprotocol/inspector uv run main.py
+npx @modelcontextprotocol/inspector uv run src/server.py
 ```

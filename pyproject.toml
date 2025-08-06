@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "anthropic>=0.61.0",
     "arxiv>=2.2.0",
     "mcp[cli]>=1.12.1",
+    "nest-asyncio>=1.6.0",
 ]
